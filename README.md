@@ -14,7 +14,7 @@ Every project teaches me something new, and this one improved my frontend develo
 
 I'm continuously learning and working toward becoming a Full Stack Web Developer. Feedback and suggestions are always welcome!
 
-🔗 Live Demo: (Add your live link)
+🔗 Live Demo: https://mukeshmannai14.github.io/greenify-website/
 
-💻 GitHub Repository :
+💻 GitHub Repository : https://github.com/mukeshmannai14/greenify-website/tree/main
 
