@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-amber-100">
+    <nav class="bg-green-500 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl ">Greenify</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex ">
+            <li><a class=" hover:text-black " href="index.html">Home</a></li>
+             <li><a class=" hover:text-black " href="product.html">product</a></li>
+            <li><a class=" hover:text-black" href="contact.html">contact</a></li>
+           
+        </ul>
+    </nav>
+
+    <!-----sidenav bar-->
+    <section id="sidenav" class="bg-green-500 fixed z-20 top-0 transition-all duration-1000"
+        style="width: 50%;height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-10 items-center text-gray-600  ">
+            <li><a class=" hover:text-black " href="index.html">Home</a></li>
+              <li><a class=" hover:text-black " href="product.html">Product</a></li>
+            <li><a class=" hover:text-black" href="contact.html">Contact</a></li>
+          
+        </ul>
+    </section>
+    <!---searchbar-->
+    <div class="w-full flex justify-center px-4 py-2">
+
+        <input id="search" type="text" placeholder="search your products..."
+            class="w-full max-w-xl border border-black p-4 rounded-md">
+    </div>
+
+
+
+    <!-----best seller-->
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold ">best seller</h1>
+        <div id="product-container" class=" grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+
+            <div>
+                <img src="./images/bestseller_6.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1> Pink Kalanchoe</h1>
+                <p>Rating:⭐⭐⭐⭐⭐ (4.8/5)</p>
+                <p>₹499</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_7.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1> Paperwhite Narcissus</h1>
+                <p>Rating:⭐⭐⭐⭐☆ (4.6/5)</p>
+                <p>₹399</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_8.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1>Weeping Fig (Ficus Benjamina)</h1>
+                <p>Rating:⭐⭐⭐⭐⭐ (4.9/5)</p>
+                <p>₹699</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_9.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1>White Phalaenopsis Orchid</h1>
+                <p>Rating:⭐⭐⭐⭐⭐ (5.0/5)</p>
+                <p>₹999</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_11.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1> Pink Phalaenopsis Orchid</h1>
+                <p>Rating:⭐⭐⭐⭐☆ (4.7/5)</p>
+                <p>₹1,099</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_12.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1>Peach Orchid</h1>
+                <P>Rating:⭐⭐⭐⭐⭐ (4.9/5)</P>
+                <p>₹1,199</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_13.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1>Rubber Plant</h1>
+                <p>Rating:⭐⭐⭐⭐☆ (4.5/5)</p>
+                <p>₹799</p>
+            </div>
+            <div>
+                <img src="./images/bestseller_14.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 rounded-2xl">
+                <h1>Yellow Lily</h1>
+                <p>Rating:⭐⭐⭐⭐⭐ (4.8/5)</p>
+                <p>₹899</p>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <!----footer-->
+    <section class="bg-green-600 text-black p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenify</h1>
+        <p>"We take pride in delivering healthy, high-quality plants that bring nature closer to your home. Here's what
+            our happy customers have to say about their experience with us." 🌱✨</p>
+        <p>@2026 Greenify.com</p>
+    </section>
+    <script src="product.js"></script>
+</body>
+
+</html>
