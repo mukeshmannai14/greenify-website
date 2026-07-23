@@ -1,36 +1,79 @@
-🌿 Greenify – Plant & Nature Website
+# 🌿 Greenify - Plant E-Commerce Website
 
-Greenify is a modern, fully responsive website built using HTML, Tailwind CSS, and JavaScript. It features a clean, nature-inspired design with multiple pages connected through a responsive navigation bar. Users can easily navigate between the Home, About, and Contact pages.
+Greenify is a modern, responsive plant e-commerce website developed using **HTML, CSS, Tailwind CSS, and JavaScript**. The project focuses on delivering a clean user interface, responsive layouts, and interactive features to provide an engaging user experience.
 
-🚀 Features
-🌱 Fully responsive design
-🎨 Built entirely with Tailwind CSS
-🧭 Multi-page website
-📄 Separate Home, About, and Contact pages
-🔗 Navigation bar links to different HTML pages
-📱 Mobile, Tablet, and Desktop friendly
-✨ Clean and modern UI
-⚡ Fast and lightweight
+## 🚀 Features
 
-🛠️ Technologies Used
-HTML5
-Tailwind CSS
+- 🌱 Modern and responsive landing page
+- 🪴 Product collections page
+- 🔍 Real-time product search using JavaScript
+- 📱 Mobile-friendly responsive design
+- ☰ Hamburger menu with slide-in sidebar navigation
+- ⭐ Customer reviews section
+- 📧 Newsletter subscription section
+- 🎨 Clean and modern UI
+- ⚡ Fast and lightweight
 
-📂 Project Overview
+## 🛠️ Technologies Used
 
-Greenify is a frontend project designed to practice responsive web development using Tailwind CSS. The website includes multiple pages connected through navigation links, providing a smooth browsing experience while maintaining a clean and consistent design across all pages.
+- HTML5
+- CSS3
+- Tailwind CSS
+- JavaScript
+- Git
+- GitHub
 
-📚 What I Learned
-Building responsive layouts with Tailwind CSS
-Creating multi-page websites using HTML
-Linking multiple HTML pages through navigation
-Improving UI/UX with utility-first CSS
-Organizing project files effectively
+## 📂 Project Structure
 
-🔗 Live Demo
+```
+Greenify/
+│── index.html
+│── product.html
+│── contact.html
+│── style.css
+│── script.js
+│── images/
+└── README.md
+```
 
-https://mukeshmannai14.github.io/greenify-website/
+## 💡 JavaScript Features
 
-💻 GitHub Repository
+### Product Search
+
+- Search products instantly as the user types.
+- Filters products without reloading the page.
+- Displays matching plant products dynamically.
+
+### Mobile Navigation
+
+- Responsive hamburger menu
+- Opens a sidebar navigation on mobile devices
+- Smooth navigation experience
+- Optimized for smaller screens
+
+## 📱 Responsive Design
+
+The website is fully responsive and works seamlessly on:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+
+## 🔗 Live Demo
+
+https://mukeshmannai14.github.io/greenify-website/index.html
+
+## 💻 GitHub Repository
 
 https://github.com/mukeshmannai14/greenify-website
+
+
+## 👨‍💻 Author
+
+**Mukesh Kanna**
+
+---
+
+If you found this project helpful, don't forget to ⭐ the repository.
