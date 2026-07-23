@@ -29,8 +29,8 @@ Organizing project files effectively
 
 🔗 Live Demo
 
-(https://mukeshmannai14.github.io/greenify-website/)
+https://mukeshmannai14.github.io/greenify-website/
 
 💻 GitHub Repository
 
-(https://github.com/mukeshmannai14/greenify-website)
+https://github.com/mukeshmannai14/greenify-website
